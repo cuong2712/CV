@@ -341,17 +341,32 @@ body {
         padding: 8px 12px;
     }
 }
-/* Thêm vào file CSS của bạn */
-.btn-download-cv {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #5851db;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background 0.2s;
+.cv-download-container {
+    text-align: center; /* Canh giữa nội dung */
+    margin-top: 16px;
 }
-.btn-download-cv:hover {
-    background-color: #0051b3;
+
+.cv-download-container {
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    margin-top: 16px;
+}
+
+.custom-download-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 123, 255, 0.2);
+    width: fit-content;       /* Chỉ chiếm đúng nội dung */
+    max-width: 200px;         /* Giới hạn chiều rộng tối đa */
+}
+
+.custom-download-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
 }
