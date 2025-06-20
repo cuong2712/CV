@@ -341,3 +341,17 @@ body {
         padding: 8px 12px;
     }
 }
+/* Thêm vào file CSS của bạn */
+.btn-download-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5851db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.btn-download-cv:hover {
+    background-color: #0051b3;
+}
